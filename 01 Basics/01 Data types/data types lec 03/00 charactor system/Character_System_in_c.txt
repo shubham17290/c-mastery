@@ -1,0 +1,161 @@
+                                  CHARACTER SYSTEM IN C
+                                         |
+                    +--------------------+--------------------+
+                    |                                         |
+               Character Type                          Character Encoding
+                    |                                         |
+                  char                                ASCII / Unicode (UTF-8)
+                    |
+      +-------------+-------------+
+      |                           |
+  Signed char               Unsigned char
+ (-128 to 127)               (0 to 255)
+      |
+      +--------------------------------------------------+
+      |                                                  |
+ Character Constants                               Character Variables
+      |                                                  |
+      |                                           char ch = 'A';
+      |
++-----+-----+-----+-----+-----+-----+-----+-----+
+|           |           |           |           |
+Letters    Digits    Symbols   Escape Seq.   Special
+(A-Z,a-z)  (0-9)    (+,-,@,#)   (\n,\t,\0)   ('"', '\'')
+
+
+                        { CHARACTER CLASSIFICATION }
+
+Character
+│
+├── Alphabet
+│   ├── Uppercase (A-Z)
+│   └── Lowercase (a-z)
+│
+├── Numeric
+│   └── '0' - '9'
+│
+├── Whitespace
+│   ├── Space
+│   ├── Tab (\t)
+│   ├── Newline (\n)
+│   ├── Vertical Tab (\v)
+│   ├── Form Feed (\f)
+│   └── Carriage Return (\r)
+│
+├── Punctuation
+│   ├── !
+│   ├── ?
+│   ├── .
+│   ├── ,
+│   ├── ;
+│   ├── :
+│   └── ...
+│
+└── Operators
+    ├── +
+    ├── -
+    ├── *
+    ├── /
+    ├── %
+    ├── =
+    ├── <
+    └── >
+
+
+🔤 ASCII Character Layout
+
+ASCII (0 - 127)
+
+0 - 31    → Control Characters
+32         → Space
+
+33 - 47   → Special Symbols
+48 - 57   → Digits (0-9)
+
+58 - 64   → Symbols
+
+65 - 90   → Uppercase Letters (A-Z)
+
+91 - 96   → Symbols
+
+97 -122   → Lowercase Letters (a-z)
+
+123-126   → Symbols
+
+127        → DEL
+
+
+
+🎯 Escape Characters
+
+| Escape | Meaning         |
+| ------ | --------------- |
+| `\n`   | New Line        |
+| `\t`   | Horizontal Tab  |
+| `\r`   | Carriage Return |
+| `\b`   | Backspace       |
+| `\a`   | Alert (Beep)    |
+| `\f`   | Form Feed       |
+| `\v`   | Vertical Tab    |
+| `\\`   | Backslash       |
+| `\'`   | Single Quote    |
+| `\"`   | Double Quote    |
+| `\?`   | Question Mark   |
+| `\0`   | Null Character  |
+
+
+
+📖 Character Functions (<ctype.h>)
+
+
+                <ctype.h>
+
+                Character Functions
+                       |
+    +------------------+-------------------+
+    |                                      |
+ Classification                      Conversion
+    |                                      |
+isalpha()                           toupper()
+isdigit()                           tolower()
+isalnum()
+islower()
+isupper()
+isspace()
+ispunct()
+iscntrl()
+isxdigit()
+isprint()
+isgraph()
+
+
+💻 Memory Representation
+
+char ch = 'A';
+
+Memory
+
++--------+
+|  65    |
++--------+
+
+'A' is stored as its ASCII value (65)
+
+
+🔁 Character Conversion
+
+'A' + 32  = 'a' {A = 65 , A+32 = a}
+
+'a' - 32  = 'A' {97-32=65= A}
+
+'5' - '0' = 5 { 5-0=5 }
+
+5 + '0'   = '5' 
+
+🎓 Character Data Type Summary
+
+| Data Type       | Size   | Range                                  | Format Specifier                        |
+| --------------- | ------ | -------------------------------------- | --------------------------------------- |
+| `char`          | 1 byte | -128 to 127 *(implementation-defined)* | `%c`                                    |
+| `signed char`   | 1 byte | -128 to 127                            | `%hhd` *(numeric)* / `%c` *(character)* |
+| `unsigned char` | 1 byte | 0 to 255                               | `%hhu` *(numeric)* / `%c` *(character)* |
