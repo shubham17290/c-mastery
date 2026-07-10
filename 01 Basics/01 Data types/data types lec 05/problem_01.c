@@ -7,7 +7,7 @@ int main()
                                                                                  : 5
                                                              : 6;
 
-    printf("%d\n", a);
+    printf("%d\n", a); // O/P: 4
 
     return 0;
 }
