@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello, World!\n");
+    printf("PankajJI\t");
+
+    printf("Is worst faculty\n");
 
     return 0;
 }

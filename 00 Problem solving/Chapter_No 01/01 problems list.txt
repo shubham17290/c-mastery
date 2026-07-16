@@ -1,0 +1,103 @@
+🎯 Stage 1: Data Types & Operators (30 Problems):
+
+Variables & Basic Calculations:
+
+1.Swap two numbers (with third variable)
+2.Swap two numbers (without third variable)
+3.Find the largest of two numbers
+4 Find the smallest of three numbers
+5.Convert Celsius to Fahrenheit
+6.Convert Fahrenheit to Celsius
+7.Convert days into years, months, and days
+8.Calculate simple interest
+9.Calculate compound interest
+10.Calculate electricity bill
+
+
+Type Casting:
+
+11. Convert float to integer
+12.Convert integer to float
+13.Demonstrate implicit type conversion
+14.Demonstrate explicit type casting
+
+Operators:
+
+15.Calculator using switch
+16.Evaluate arithmetic expressions
+17.Demonstrate operator precedence
+18.Demonstrate associativity
+19.Check overflow using int
+20.Same program using long long
+
+
+Bitwise Basics ⭐⭐⭐⭐⭐:
+
+21.Check even/odd using bitwise
+22.Multiply by 2 using left shift
+23.Divide by 2 using right shift
+24.Check ith bit
+25.Set ith bit
+26.Clear ith bit
+27.Toggle ith bit
+28.Count set bits (simple loop)
+29.Check power of two
+30.Find unique element using XOR
+
+ 🎯 Stage 2: Decision Making (35 Problems):
+
+ if-else:
+
+1.Positive, Negative, Zero
+2.Even or Odd
+3.Leap Year
+4.Greatest of two
+5.Greatest of three
+6.Smallest of three
+7.Eligible to vote
+8.Character is vowel/consonant
+9.Alphabet, digit or special character
+10.Grade calculator
+
+Nested if:
+
+11.Triangle validity
+12.Triangle type
+13.Profit or Loss
+14.Quadratic roots
+15.BMI calculator
+
+switch:
+
+16.Simple Calculator
+17.Days in Month
+18.Weekday
+19.Menu-driven Calculator
+20.Currency Converter
+
+
+Logical Operators
+
+21.Login validation
+22.Admission eligibility
+23.Scholarship eligibility
+24.Loan eligibility
+25.Password checker
+
+Advanced Conditions:
+
+26.Chessboard color
+27.Point inside rectangle
+28.Largest among four
+29.Median of three
+30.Tax calculator
+
+
+# interview centric or style
+
+1.Can a triangle be formed?
+2.Number divisible by both 5 and 11
+3.Number divisible by either 3 or 7
+4.Electricity tariff
+5.ATM simulation
+
