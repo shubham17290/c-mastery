@@ -14,7 +14,7 @@ void main() {
     ++a;
     ++b;
 
-    printf("%d%d\n", a, b); // a--> 10 , b --> 1
+    printf("%d %d\n", a, b); // a--> 10 , b --> 1
 }
 // output you will have
 /*
