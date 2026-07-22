@@ -3,6 +3,7 @@
 int fun1() {
 
     int x = 10, y = 20;
+    
 
     printf(" the output is %d and this is from fun1()\n", x + y);
 
