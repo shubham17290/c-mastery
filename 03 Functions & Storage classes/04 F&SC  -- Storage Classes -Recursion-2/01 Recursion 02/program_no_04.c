@@ -1,4 +1,4 @@
-//print the count of the digit !
+// print the count of the digit (of the positive numbers) !
 #include <stdio.h>
 int f(int n) {
     if (n <= 9) // n is positive
@@ -9,7 +9,8 @@ int f(int n) {
 }
 
 int main() {
-    int n, result;
+
+    int n, result; // n is positive
 
     printf("Enter value: ");
     scanf("%d", &n);
