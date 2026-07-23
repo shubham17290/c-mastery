@@ -10,7 +10,7 @@ int f(int a, int b) {
 }
 int main() {
 
-    int a, b, result;
+    int a, b, result; // there is main three variable  result is helping to order to store the power value 
     printf("Enter base and the power = \n");
     scanf("%d %d", &a, &b);
     result = f(a, b);
