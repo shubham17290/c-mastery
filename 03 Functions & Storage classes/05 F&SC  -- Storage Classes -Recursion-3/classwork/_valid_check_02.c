@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    function();
+    main();
 
     return 0;
 }
-void function() { printf("Function is C is Awesome\n"); }
