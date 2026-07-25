@@ -2,8 +2,13 @@
 
 int main() {
     int a;
-    a = 15 < 2 ? 1 != 12 > 15 ? 10 : 20 : 4 < 7 != 7 > 9 ? !5 ? 30 : !1 != 1 ? 4 : 5 : 6;
-    printf("%d\n", a);
+
+    // The main expression from the image
+    //  this equation tell us about the concept of the short circuit evaluations
+    a = 5 < 12 ? (printf("GATE") && printf("Wallah")) || printf("2023") : printf("Sir");
+
+    printf("%d", a);
+    //  output : GATEWallah1
 
     return 0;
 }
