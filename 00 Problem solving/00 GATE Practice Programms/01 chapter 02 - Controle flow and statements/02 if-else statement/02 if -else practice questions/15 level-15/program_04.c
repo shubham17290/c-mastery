@@ -1,4 +1,4 @@
-// 34th commit " largest among 3 is done using the ternary operator"
+// 35th commit " largest among 3 is done using the ternary operator"
 //  wap to print the largest among three numbers :
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-// 33th commit " largest among 5 is done using the if statement"
+// 33th commit " largest among 3 is done using the if-else statement"
 //  wap to print the largest among three numbers
 
 #include <stdio.h>
