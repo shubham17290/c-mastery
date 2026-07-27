@@ -12,7 +12,7 @@ int main() {
     while (n != 0) {
         digit = n % 10;
         printf("the digit is %d \n", digit);
-        // sum = sum + digit;
+
         n = n / 10;
         count++;
     }
