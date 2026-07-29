@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int x = 10;
+    int *p;
+    int **q;
+    p = &x;
+    q = &p;
+    // p =  memory location 1036 ,
+
+    printf("%u\n", p);
+    printf("%u\n", *(p));
+    printf("%u\n", q);
+    printf("%u\n", *q);
+    printf("%u\n", **q);
+
+    return 0;
+}
