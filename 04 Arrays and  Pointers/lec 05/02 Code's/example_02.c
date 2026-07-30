@@ -9,6 +9,6 @@ int main() {
     return 0;
 }
 int fun(int *p) {
-    ++p;
+    // ++p;
     ++*p;
 }
