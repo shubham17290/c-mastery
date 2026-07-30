@@ -6,8 +6,8 @@ int main() {
     int **q;
     p = &x;
     q = &p;
-    printf("%u\n", p);
-    printf("%u\n", *p);
+    printf("the value of the  p = %u\n", p);
+    printf(" the value of the *p = %u\n", *p);
     printf("%u\n", q);
     printf("%u\n", *p);
     printf("%u\n", **q);
