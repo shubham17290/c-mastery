@@ -39,4 +39,39 @@ int maxSubArray(int *nums, int numsSize) {
             currentSum = nums[i];
         }
 
-    // Update max sum if current is larger
+        // Update max sum if current is larger
+        if (currentSum > maxSum) {
+            maxSum = currentSum;
+        }
+    }
+
+    return maxSum;
+}
+
+int main() {
+    // Test case 1
+    int nums1[] = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+    int size1 = 9;
+    printf("Test 1: nums = [-2,1,-3,4,-1,2,1,-5,4]\n");
+    printf("Max subarray sum: %d\n\n", maxSubArray(nums1, size1));
+
+    // Test case 2 - all negative
+    int nums2[] = {-1, -2, -3, -4};
+    int size2 = 4;
+    printf("Test 2: nums = [-1,-2,-3,-4] (all negative)\n");
+    printf("Max subarray sum: %d\n\n", maxSubArray(nums2, size2));
+
+    // Test case 3 - single element
+    int nums3[] = {5};
+    int size3 = 1;
+    printf("Test 3: nums = [5] (single element)\n");
+    printf("Max subarray sum: %d\n\n", maxSubArray(nums3, size3));
+
+    // Test case 4 - all positive
+    int nums4[] = {1, 2, 3, 4, 5};
+    int size4 = 5;
+    printf("Test 4: nums = [1,2,3,4,5] (all positive)\n");
+    printf("Max subarray sum: %d\n", maxSubArray(nums4, size4));
+
+    return 0;
+}
