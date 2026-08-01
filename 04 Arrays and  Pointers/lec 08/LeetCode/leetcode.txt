@@ -1,0 +1,136 @@
+============================================================
+  LECTURE 08: ARRAYS AND POINTERS - LEETCODE QUESTIONS
+============================================================
+
+TOP 10 MUST-DO QUESTIONS (Core Concepts)
+============================================================
+
+1. Two Sum (LC 1) - Easy
+   - Two-pointer on sorted array
+   - Link: https://leetcode.com/problems/two-sum/
+
+2. Remove Duplicates from Sorted Array (LC 26) - Easy
+   - In-place array modification with two pointers
+   - Link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+3. Move Zeroes (LC 283) - Easy
+   - Two-pointer partitioning
+   - Link: https://leetcode.com/problems/move-zeroes/
+
+4. Rotate Array (LC 189) - Medium
+   - Reversal algorithm (reverse whole, then parts)
+   - Link: https://leetcode.com/problems/rotate-array/
+
+5. 3Sum (LC 15) - Medium
+   - Two-pointer inside loop
+   - Link: https://leetcode.com/problems/3sum/
+
+6. Container With Most Water (LC 11) - Medium
+   - Two-pointer optimization
+   - Link: https://leetcode.com/problems/container-with-most-water/
+
+7. Trapping Rain Water (LC 42) - Hard
+   - Two-pointer with left/right max tracking
+   - Link: https://leetcode.com/problems/trapping-rain-water/
+
+8. Merge Sorted Array (LC 88) - Easy
+   - Merging with pointers from the end
+   - Link: https://leetcode.com/problems/merge-sorted-array/
+
+9. Sort Colors (LC 75) - Medium
+   - Dutch National Flag (3 pointers)
+   - Link: https://leetcode.com/problems/sort-colors/
+
+10. Maximum Subarray (LC 53) - Easy
+    - Kadane's algorithm (pointer tracking)
+    - Link: https://leetcode.com/problems/maximum-subarray/
+
+
+============================================================
+  ADDITIONAL QUESTIONS (Complete List)
+============================================================
+
+TWO POINTERS TECHNIQUE
+------------------------------------------------------------
+11. Valid Palindrome (LC 125) - Easy
+    - Two pointers from both ends
+    - Link: https://leetcode.com/problems/valid-palindrome/
+
+12. Remove Element (LC 27) - Easy
+    - In-place removal with pointers
+    - Link: https://leetcode.com/problems/remove-element/
+
+ARRAY REVERSAL & ROTATION
+------------------------------------------------------------
+13. Reverse String (LC 344) - Easy
+    - Pointer swap technique
+    - Link: https://leetcode.com/problems/reverse-string/
+
+14. Reverse Words in a String (LC 151) - Medium
+    - Multiple reversal passes
+    - Link: https://leetcode.com/problems/reverse-words-in-a-string/
+
+SEARCHING & FINDING IN ARRAYS
+------------------------------------------------------------
+15. Find the Duplicate Number (LC 287) - Medium
+    - Pointer-based cycle detection
+    - Link: https://leetcode.com/problems/find-the-duplicate-number/
+
+16. Find All Duplicates in an Array (LC 442) - Medium
+    - Index-as-pointer trick
+    - Link: https://leetcode.com/problems/find-all-duplicates-in-an-array/
+
+17. Missing Number (LC 268) - Easy
+    - Array indexing / pointer logic
+    - Link: https://leetcode.com/problems/missing-number/
+
+18. Find Peak Element (LC 162) - Medium
+    - Pointer-based binary search
+    - Link: https://leetcode.com/problems/find-peak-element/
+
+SLIDING WINDOW (POINTER-BASED)
+------------------------------------------------------------
+19. Longest Substring Without Repeating Characters (LC 3) - Medium
+    - Sliding window with two pointers
+    - Link: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+
+20. Minimum Size Subarray Sum (LC 209) - Medium
+    - Sliding window two-pointer
+    - Link: https://leetcode.com/problems/minimum-size-subarray-sum/
+
+ARRAY MANIPULATION
+------------------------------------------------------------
+21. Product of Array Except Self (LC 238) - Medium
+    - Prefix/suffix pointer technique
+    - Link: https://leetcode.com/problems/product-of-array-except-self/
+
+22. Intersection of Two Arrays II (LC 350) - Easy
+    - Two-pointer merge on sorted arrays
+    - Link: https://leetcode.com/problems/intersection-of-two-arrays-ii/
+
+POINTER ARITHMETIC / INDEX MANIPULATION
+------------------------------------------------------------
+23. Plus One (LC 66) - Easy
+    - Array traversal from end
+    - Link: https://leetcode.com/problems/plus-one/
+
+24. Majority Element (LC 169) - Easy
+    - Boyer-Moore voting (pointer tracking)
+    - Link: https://leetcode.com/problems/majority-element/
+
+25. Best Time to Buy and Sell Stock (LC 121) - Easy
+    - Min-price pointer tracking
+    - Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+============================================================
+  SUMMARY OF PATTERNS COVERED
+============================================================
+- Two Pointers
+- Sliding Window
+- In-place Modification
+- Array Reversal
+- Index Manipulation
+- Prefix/Suffix Tracking
+- Dutch National Flag (3 pointers)
+- Kadane's Algorithm
+- Boyer-Moore Voting
