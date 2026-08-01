@@ -22,9 +22,10 @@ int main() {
 
     // Student Details
     s.roll = 10;
-    strcpy(s.name, "Pankaj");
+    strcpy(s.name,
+           "Pankaj"); // this will help to copy the value inside the variable name of structure stu
 
-    // Date of Birth
+    // Date of Birth // using the nested structure
     s.DOB.day = 2;
     s.DOB.month = 3;
     s.DOB.year = 1982;
