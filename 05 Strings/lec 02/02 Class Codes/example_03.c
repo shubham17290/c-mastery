@@ -12,3 +12,5 @@ int main() {
     }
     return 0;
 }
+
+//  the output is "Both are same" because both p and q point to the same string literal in memory. In C, string literals are stored in a read-only section of memory, and identical string literals may be merged by the compiler to save space. Therefore, p and q point to the same memory address, resulting in the comparison being true.
