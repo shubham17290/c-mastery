@@ -3,7 +3,7 @@
 int main()
 {
     char name[] = "shubham ";
-  /  name = "pankaj";
+    // name = "pankaj";
 
     return 0;
 }
