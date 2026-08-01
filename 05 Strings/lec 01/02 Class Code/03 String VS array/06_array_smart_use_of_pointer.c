@@ -1,3 +1,6 @@
+// array' using the pointer and the for loop. The pointer is used to access the elements of the
+// array by incrementing it in each iteration of the loop. This demonstrates how pointers can be
+// used to traverse and manipulate arrays in C.
 #include <stdio.h>
 
 int main() {
