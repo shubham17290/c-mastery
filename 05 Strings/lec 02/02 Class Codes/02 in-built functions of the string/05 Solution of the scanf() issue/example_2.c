@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 int main() {
-    int i;
+    // int i;
 
     char arr[20];
     //  to handle the scanf() issue, we can use the following approach:gets()
