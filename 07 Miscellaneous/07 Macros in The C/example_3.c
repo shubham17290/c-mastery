@@ -1,5 +1,5 @@
-//
-#define square(x) (x) * (x)
+// M - Example 3: Macro for Square Calculation , met`hod 2
+#define square(x) x *x
 #include <stdio.h>
 int main() {
     int i;
